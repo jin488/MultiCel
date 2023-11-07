@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+/* NAVBAR GENERAL */
+
+.encabezado {
+    background-color: black;
+}
+
+.titulo {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.titulo:hover {
+    color: rgb(86, 86, 253);
+    text-decoration: none;
+}
+
+.lista {
+    margin-top: 15px;
+}
+
+.bordeDeBusqueda {
+    border: 1px solid rgb(86, 86, 253);
+    border-radius: 15px;
+}
+
+.paginas {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.paginas:hover {
+    color: rgb(86, 86, 253);
+    cursor: pointer;
+}

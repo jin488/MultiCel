@@ -17,9 +17,9 @@
     <!-- ENCABEZADO Y MAIN MENU -->
 
     <main>
-        <header class="p-3 encabezado">
-            <div class="container">
-                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <header class="encabezado p-3">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                         <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
                             <use>
@@ -27,40 +27,54 @@
                             </use>
                         </svg>
                     </a>
-
-                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 lista">
-                        <li><a href="../index.html" class="me-5 nav-link titulo">Multi Cel</a></li>
-                        <li><a href="../html/moviles.html" class="nav-link px-2 paginas">Moviles</a></li>
-                        <li><a href="../html/samsung.html" class="nav-link px-2 paginas">Samsung</a></li>
-                        <li><a href="../html/apple.html" class="nav-link px-2 paginas">Apple</a></li>
-                        <li><a href="../html/xiaomi.html" class="nav-link px-2 paginas">Xiaomi</a></li>
-                        <li><a href="../html/accesorios.html" class="nav-link px-2 paginas">Accesorios</a></li>
-                        <li><a href="../html/soporte.html" class="nav-link px-2 paginas">Soporte</a></li>
-                    </ul>
-
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " role="search">
-                        <input type="search" class="form-control bordeDeBusqueda" placeholder="Buscar"
-                            aria-label="Search">
-                    </form>
-
-                    <div class="dropdown text-end">
-                        <a href="#" class="d-block link-light text-decoration-none dropdown-toggle"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="../iconos/icons8-usuario-48.png" alt="mdo" width="32" height="32"
-                                class="rounded-circle">
-                        </a>
-                        <ul class="dropdown-menu text-small">
-                            <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
-                            <li><a class="dropdown-item" href="#">Perfil</a></li>
-                            <li><a class="dropdown-item" href="#">Mis compras</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
+                    <a href="../index.html" class="me-5 mt-2 nav-link titulo">Multi Cel</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 lista">
+                            <li><a href="../html/moviles.html" class="nav-link px-2 paginas">Moviles</a></li>
+                            <li><a href="../html/samsung.html" class="nav-link px-2 paginas">Samsung</a></li>
+                            <li><a href="../html/apple.html" class="nav-link px-2 paginas">Apple</a></li>
+                            <li><a href="../html/xiaomi.html" class="nav-link px-2 paginas">Xiaomi</a></li>
+                            <li><a href="../html/accesorios.html" class="nav-link px-2 paginas">Accesorios</a></li>
+                            <li><a href="../html/soporte.html" class="nav-link px-2 paginas">Soporte</a></li>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                             </li>
-                            <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
                         </ul>
+                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " role="search">
+                            <input type="search" class="form-control bordeDeBusqueda" placeholder="Buscar"
+                                aria-label="Search">
+                        </form>
+
+                        <div class="dropdown text-end me-5">
+                            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="../iconos/icons8-usuario-48.png" alt="mdo" width="32" height="32"
+                                    class="rounded-circle">
+                            </a>
+                            <ul class="dropdown-menu text-small">
+                                <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
+                                <li><a class="dropdown-item" href="#">Perfil</a></li>
+                                <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </nav>
         </header>
     </main>
 
@@ -142,15 +156,17 @@
         </div>
     </main>
 
-      <!-- FOOTER -->
+    <!-- FOOTER -->
 
-      <footer class="py-5 pie">
+    <footer class="py-5 pie">
         <div class="row justify-content-evenly cajapie">
             <div class="col-6 col-md-2 mb-3">
                 <h5 class="text-light mb-3">Productos</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Ultimas Novedades</a></li>
-                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Productos Principales</a></li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Ultimas Novedades</a>
+                    </li>
+                    <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Productos
+                            Principales</a></li>
                     <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Samsung</a></li>
                     <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Apple</a></li>
                     <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Xiaomi</a></li>
@@ -160,21 +176,27 @@
             <div class="col-6 col-md-2 mb-3">
                 <h5 class="text-light mb-3">Soporte</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Correo electronico</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Numero de soporte</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Correo
+                            electronico</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Numero de
+                            soporte</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Privacidad</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Terminos y condiciones</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Opciones de sesion</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Terminos y
+                            condiciones</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Opciones de
+                            sesion</a></li>
                 </ul>
             </div>
 
             <div class="col-6 col-md-2 mb-3">
                 <h5 class="text-light mb-3">Acerca de nosotos</h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Informacion de Multi Cel</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Informacion de Multi
+                            Cel</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Noticias</a></li>
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Legal</a></li>
-                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Opciones de trabajo</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Opciones de
+                            trabajo</a></li>
                 </ul>
             </div>
 

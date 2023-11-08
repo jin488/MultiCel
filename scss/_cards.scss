@@ -1,0 +1,151 @@
+/* PRODUCTOS PINCIPALES */
+
+.productosTitulo {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.promos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 60px;
+    margin-top: 50px;
+    width: auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.tecnologia {
+    width: 75%;
+    height: 200px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    object-fit: contain;
+
+    &:hover {
+        box-shadow: 2px 2px 2px rgb(107, 107, 107);
+        width: 80%;
+        height: 200px;
+        border: 10px solid transparent;
+    }
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wach {
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.airPods,
+.pad {
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+.nombres {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+
+    &:hover {
+        cursor: pointer;
+        color: rgb(86, 86, 253);
+        text-decoration: underline;
+    }
+}
+
+.info,
+.precio {
+    padding: 3px;
+    text-transform: uppercase;
+    cursor: default;
+    color: rgb(86, 86, 253);
+}
+
+.masInfo {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    width: 150px;
+
+    &:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        border-radius: 25px;
+        cursor: pointer;
+        border: none;
+        border: 1px solid transparent;
+    }
+}
+
+/* CELULARES */
+
+.smart {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+
+.mostrador {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 20px;
+    margin-bottom: 25px;
+}
+
+.moviles {
+    width: 70%;
+    height: 200px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 20px;
+    object-fit: contain;
+    margin-top: 75px;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 2px 2px 2px rgb(107, 107, 107);
+        width: 75%;
+        height: 200px;
+        border: 1px solid transparent;
+    }
+}
+
+.celulares {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.comprar {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 5px;
+    width: 200px;
+    height: 40px;
+
+    &:hover {
+        color: white;
+        background-color: rgb(80, 80, 80);
+        border-radius: 25px;
+        cursor: pointer;
+        border: none;
+        border: 1px solid transparent;
+    }
+}

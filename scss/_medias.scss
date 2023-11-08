@@ -1,0 +1,76 @@
+/* Media quieris */
+
+@media (max-width: 1023px) {
+    /* header */
+  
+    header {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    /* Ultimas novedades */
+  
+    .fotos {
+      width: 200px;
+    }
+  
+    .promos, .nombres {
+      font-size: 15px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* header */
+  
+    header {
+      width: 100%;
+      height: auto;
+      flex-direction: row;
+      align-items: center;
+      text-align: center;
+    }
+
+    .lista {
+      display: inline-block;
+    }
+  
+    body {
+      contain: content;
+    }
+  
+    .fotos {
+      width: 300px;
+    }
+  
+    .mediaCelu, .mediaBoton {
+      display: none;
+    }
+  
+    .promos, .mostrador {
+      grid-template-columns: 2fr;
+      row-gap: 20px;
+    }
+  
+    .zapato {
+      border-top: 1px solid white;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .formulario {
+      width: auto;
+      align-content: center;
+    }
+  
+    .area {
+      width: auto;
+    }
+  
+    .papel {
+      width: auto;
+      height: auto;
+    }
+  }
+  

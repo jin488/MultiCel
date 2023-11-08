@@ -17,7 +17,7 @@
     <!-- ENCABEZADO Y MAIN MENU -->
 
     <main>
-        <header class="p-3 border-bottom encabezado">
+        <header class="p-3 encabezado">
             <div class="container">
                 <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                     <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
@@ -64,38 +64,30 @@
         </header>
     </main>
 
-    <!-- novedades y botones de navegacion-->
+    <!-- ultimas novedades -->
 
-    <div class="containerMoviles">
-
-        <div class="caja cajaNegraMoviles">
-            <img class="fotosMoviles" src="../img/xiaomi/pocophone.png" alt="Xiaomi Pocophone M3">
-            <img class="fotosMoviles" src="../img/samsung/zflip.png" alt="Samsung Z flip 5">
-            <img class="fotosMoto" src="../img/motorola flip.png" alt="Motorola Razr 40 ultra">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/carousel 1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel 2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../img/carousel 3.jpg" class="d-block w-100" alt="...">
+            </div>
         </div>
-        <div class="cajaMoviles1">
-            <button class="botonMoviles">Mas Informacion</button>
-        </div>
-
-        <div class="marca1">
-            <img src="../img/xiaomi/poco.png" alt="pocophone">
-        </div>
-
-        <div class="cajaMoviles2">
-            <button class="botonMoviles">Mas Informacion</button>
-        </div>
-
-        <div class="marca2">
-            <img src="../img/samsung/samsung.png" alt="Samsung">
-        </div>
-
-        <div class="cajaMoviles3">
-            <button class="botonMoviles">Mas Informacion</button>
-        </div>
-
-        <div class="marca3">
-            <img src="../img/motorola.png" alt="Motorola">
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
     <!-- Productos Principales -->

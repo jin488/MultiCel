@@ -335,7 +335,111 @@ body {
     border: 1px solid transparent;
 }
 
-/* SAMSUNG */
+/* SOPORTE */
+
+.soporte {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.hSoporte {
+    text-transform: uppercase;
+    margin: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.texto {
+    text-align: center;
+    padding: 5px;
+}
+
+.sectionSoporte {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 15px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+    margin: 15px;
+    text-align: center;
+    contain: content;
+    border-radius: 5px;
+}
+
+.contacto {
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.area {
+    width: 95%;
+    background-color: rgb(218, 218, 218);
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 20px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+}
+
+.indicadores {
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.papel {
+    width: 95%;
+    display: block;
+    margin: 20px;
+    background-color: rgb(218, 218, 218);
+    border: 1px black dotted;
+    font-size: 20px;
+}
+
+.botones {
+    width: 250px;
+    height: 35px;
+    margin: 25px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botones:hover {
+    width: 250px;
+    height: 35px;
+    margin: 25px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.subRes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    align-content:  center;
+}
+
+.mapa {
+    margin: 10px;
+}
 
 /* PAGINA PRINCIPAL */
 

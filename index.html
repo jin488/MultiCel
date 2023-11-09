@@ -5,79 +5,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Multi Cel es una de las mejores tiendas de ventas para smartphones y accesorios de las principales marcas del mercado.">
     <title>¡¡Multi Cel!!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/estilo.css">
     <link rel="shortcut icon" href="./iconos/logo.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 
     <!-- ENCABEZADO Y MAIN MENU -->
 
-    <main>
-        <header class="encabezado p-3">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
-                        <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
-                            <use>
-                                <img width="50" class="me-3" src="./iconos/logo.png" alt="">
-                            </use>
-                        </svg>
-                    </a>
-                    <a href="./index.html" class="me-5 mt-2 nav-link titulo">Multi Cel</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 lista">
-                            <li><a href="./html/moviles.html" class="nav-link px-2 paginas">Moviles</a></li>
-                            <li><a href="./html/samsung.html" class="nav-link px-2 paginas">Samsung</a></li>
-                            <li><a href="./html/apple.html" class="nav-link px-2 paginas">Apple</a></li>
-                            <li><a href="./html/xiaomi.html" class="nav-link px-2 paginas">Xiaomi</a></li>
-                            <li><a href="./html/accesorios.html" class="nav-link px-2 paginas">Accesorios</a></li>
-                            <li><a href="./html/soporte.html" class="nav-link px-2 paginas">Soporte</a></li>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+    <header class="encabezado p-3">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="./index.html"
+                    class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
+                    <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                        <use>
+                            <img width="50" class="me-3" src="./iconos/logo.png" alt="Multi cel logo">
+                        </use>
+                    </svg>
+                </a>
+                <a href="./index.html" class="me-5 mt-2 nav-link titulo">Multi Cel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 lista">
+                        <li><a href="./html/moviles.html" class="nav-link px-2 paginas">Moviles</a></li>
+                        <li><a href="./html/samsung.html" class="nav-link px-2 paginas">Samsung</a></li>
+                        <li><a href="./html/apple.html" class="nav-link px-2 paginas">Apple</a></li>
+                        <li><a href="./html/xiaomi.html" class="nav-link px-2 paginas">Xiaomi</a></li>
+                        <li><a href="./html/accesorios.html" class="nav-link px-2 paginas">Accesorios</a></li>
+                        <li><a href="./html/soporte.html" class="nav-link px-2 paginas">Soporte</a></li>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
                             </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
-                        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " role="search">
-                            <input type="search" class="form-control bordeDeBusqueda" placeholder="Buscar"
-                                aria-label="Search">
-                        </form>
+                        </li>
+                    </ul>
+                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 " role="search">
+                        <input type="search" class="form-control bordeDeBusqueda" placeholder="Buscar"
+                            aria-label="Search">
+                    </form>
 
-                        <div class="dropdown text-end me-5">
-                            <a href="#" class="d-block link-light text-decoration-none dropdown-toggle"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                <img src="./iconos/icons8-usuario-48.png" alt="mdo" width="32" height="32"
-                                    class="rounded-circle">
-                            </a>
-                            <ul class="dropdown-menu text-small">
-                                <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
-                                <li><a class="dropdown-item" href="#">Perfil</a></li>
-                                <li><a class="dropdown-item" href="#">Mis compras</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
-                            </ul>
-                        </div>
+                    <div class="dropdown text-end me-5">
+                        <a href="#" class="d-block link-light text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./iconos/icons8-usuario-48.png" alt="mdo" width="32" height="32"
+                                class="rounded-circle">
+                        </a>
+                        <ul class="dropdown-menu text-small">
+                            <li><a class="dropdown-item" href="#">Iniciar sesion</a></li>
+                            <li><a class="dropdown-item" href="#">Perfil</a></li>
+                            <li><a class="dropdown-item" href="#">Mis compras</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Cerrar sesion</a></li>
+                        </ul>
                     </div>
                 </div>
-            </nav>
-        </header>
-
-    </main>
+            </div>
+        </nav>
+    </header>
 
     <!-- ULTIMAS NOVEDADES -->
 
@@ -109,15 +110,15 @@
     <!-- Productos principales -->
 
     <span class="fondo">
-    <h2 class="productosTitulo">Productos Principales</h2>
+        <h1 class="productosTitulo">Productos Principales</h1>
     </span>
 
     <main class="cajon">
         <div class="promos">
 
             <!-- Producto de apple -->
-            <div class="productos airPods">
-                <h3 class="nombres">Apple Airpods</h3>
+            <div class="productos airPods" data-aos="fade-up">
+                <h2 class="nombres">Apple Airpods</h2>
                 <img class="tecnologia" src="./img/apple/Apple Airpods 2 Generación.png"
                     alt="Apple Airpods 2 Generación">
                 <p class="info"> Precio: </p>
@@ -126,35 +127,35 @@
             </div>
 
             <!-- Producto de Samsung -->
-            <div class="productos wach">
+            <div class="productos wach" data-aos="fade-up">
                 <button class="masInfo">Mas Informacion</button>
                 <p class="info"> Precio: </p>
                 <p class="info precio"> $ Lorem </p>
                 <img class="tecnologia" src="./img/samsung/Samsung wach.png" alt="Galaxy Watch6 (Bluetooth)">
-                <h3 class="nombres">Galaxy Watch 6 (Bluetooth)</h3>
+                <h2 class="nombres">Galaxy Watch 6 (Bluetooth)</h2>
             </div>
 
             <!-- Producto de Xiaomi -->
-            <div class="productos pad">
-                <h3 class="nombres">Xiaomi Pad 6</h3>
+            <div class="productos pad" data-aos="fade-up">
+                <h2 class="nombres">Xiaomi Pad 6</h2>
                 <img class="tecnologia" src="./img/xiaomi/xiaomi-pad-6-portada.png" alt="xiaomi-pad-6">
                 <p class="info"> Precio: </p>
                 <p class="info precio"> $ Lorem </p>
                 <button class="masInfo">Mas Informacion</button>
             </div>
 
-            <div class="productos wach">
+            <div class="productos wach" data-aos="fade-up">
                 <button class="masInfo">Mas Informacion</button>
                 <p class="info"> Precio: </p>
                 <p class="info precio"> $ Lorem </p>
                 <img class="tecnologia" src="./img/xiaomi/smartwatch-xiaomi-redmi-watch-3.jpg"
                     alt="smartwatch xiaomi redmi watch 3">
-                <h3 class="nombres">Smartwatch Xiaomi Redmi Watch 3</h3>
+                <h2 class="nombres">Smartwatch Xiaomi Redmi Watch 3</h2>
             </div>
 
 
-            <div class="productos airPods">
-                <h3 class="nombres">Samsung Galaxy Buds 2</h3>
+            <div class="productos airPods" data-aos="fade-up">
+                <h2 class="nombres">Samsung Galaxy Buds 2</h2>
                 <img class="tecnologia reloj" src="./img/samsung/Galaxy Buds2.png" alt="Samsung Galaxy Buds2">
                 <p class="info"> Precio: </p>
                 <p class="info precio"> $ Lorem </p>
@@ -162,12 +163,12 @@
             </div>
 
 
-            <div class="productos wach">
+            <div class="productos wach" data-aos="fade-up">
                 <button class="masInfo">Mas Informacion</button>
                 <p class="info"> Precio: </p>
                 <p class="info precio"> $ Lorem </p>
                 <img class="tecnologia" src="./img/apple/ipad.png" alt="Apple iPad (6ª generación)">
-                <h3 class="nombres">Apple iPad (6ª generación)</h3>
+                <h2 class="nombres">Apple iPad (6ª generación)</h2>
             </div>
 
         </div>
@@ -178,7 +179,7 @@
     <footer class="py-5 pie">
         <div class="row justify-content-evenly cajapie">
             <div class="col-6 col-md-2 mb-3">
-                <h5 class="text-light mb-3">Productos</h5>
+                <h3 class="text-light mb-3">Productos</h3>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="" class="nav-link p-0 mb-1 contenidoFooter">Ultimas Novedades</a>
                     </li>
@@ -191,7 +192,7 @@
             </div>
 
             <div class="col-6 col-md-2 mb-3">
-                <h5 class="text-light mb-3">Soporte</h5>
+                <h3 class="text-light mb-3">Soporte</h3>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Correo
                             electronico</a></li>
@@ -206,7 +207,7 @@
             </div>
 
             <div class="col-6 col-md-2 mb-3">
-                <h5 class="text-light mb-3">Acerca de nosotos</h5>
+                <h3 class="text-light mb-3">Acerca de nosotos</h3>
                 <ul class="nav flex-column">
                     <li class="nav-item mb-2"><a href="#" class="nav-link p-0 mb-1 contenidoFooter">Informacion de Multi
                             Cel</a></li>
@@ -239,6 +240,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init(scroll);
+      </script>
 </body>
 
 </html>

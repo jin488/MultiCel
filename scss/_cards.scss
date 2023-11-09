@@ -74,17 +74,19 @@
 
 .masInfo {
     color: black;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 15px;
+    background-color: #BCC5CE;
+    border: none;
+    border-radius: 20px;
     margin: 10px;
     padding: 5px;
     width: 150px;
 
     &:hover {
         color: white;
-        background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
-        border-radius: 25px;
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
+        border-radius: 20px;
         cursor: pointer;
         border: none;
         border: 1px solid transparent;
@@ -111,7 +113,8 @@
 .moviles {
     width: 70%;
     height: 200px;
-    background-color: rgb(218, 218, 218);
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: screen;
     border-radius: 20px;
     object-fit: contain;
     margin-top: 75px;
@@ -143,12 +146,12 @@
 
     &:hover {
         color: white;
-        background-color: rgb(80, 80, 80);
+        background: #232526;
+        background: -webkit-linear-gradient(to right, #414345, #232526);
+        background: linear-gradient(to right, #414345, #232526);
         border-radius: 25px;
         cursor: pointer;
         border: none;
         border: 1px solid transparent;
     }
 }
-
-

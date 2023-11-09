@@ -1,0 +1,23 @@
+@mixin anclas {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@mixin hoveranclas {
+    color: rgb(86, 86, 253);
+    cursor: pointer;
+}
+
+
+.paginas {
+    @include anclas;
+
+    &:hover {
+        @include hoveranclas;  
+    }
+}
+
+.gato {
+    color :read-only
+}

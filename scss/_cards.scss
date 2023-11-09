@@ -21,15 +21,16 @@
 .tecnologia {
     width: 75%;
     height: 200px;
-    background-color: rgb(218, 218, 218);
+    background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: screen;
     border-radius: 20px;
     object-fit: contain;
+    transition: weight 2s;
 
     &:hover {
         box-shadow: 2px 2px 2px rgb(107, 107, 107);
         width: 80%;
         height: 200px;
-        border: 10px solid transparent;
     }
 }
 
@@ -82,7 +83,7 @@
 
     &:hover {
         color: white;
-        background-color: rgb(80, 80, 80);
+        background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
         border-radius: 25px;
         cursor: pointer;
         border: none;
@@ -149,3 +150,5 @@
         border: 1px solid transparent;
     }
 }
+
+

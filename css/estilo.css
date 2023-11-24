@@ -26,7 +26,7 @@ body {
   color: white;
   cursor: pointer;
   font-size: 25px;
-  margin-top: -10px;
+  margin-top: 10px;
 }
 .titulo:hover {
   color: rgb(86, 86, 253);
@@ -336,6 +336,10 @@ body {
   }
   .promos, .nombres {
     font-size: 15px;
+  }
+  .promos, .mostrador {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
   }
 }
 @media (max-width: 767px) {
